@@ -21,12 +21,15 @@ div a{
 }
 
 .right-sidebar{
-    /* background: rgb(194, 67, 67); */
+    background: red;
     flex-basis: 25%;
     position: sticky;
     top: 30px;
     align-self: flex-start;
     /* height: 120vh; */
+padding: 20px;
+border-radius: 4px;
+color: blue;
 }
 
 .main-content{
@@ -51,3 +54,124 @@ width: fit-content;
     border-radius: 2px;
     margin-right: 25px;
 }
+
+.sidebar-title{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+margin-bottom: 18px;
+
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.sidebar-title a{
+    text-decoration: none;
+    columns: white;
+    font-size: 20px;
+}
+
+.event{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+.left-event{
+    border-radius: 10px;
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.write-post-container{
+    width: 100%;
+    border-radius: 6px;
+    background: #fff;
+    padding: 20px;
+    /* color: violet; */
+    margin: 20px 0;
+} 
+.user-profile{
+    display: flex;
+    /* font-size: 13px; */
+    /* color: blueviolet; */
+align-items: center;
+}
+.user-profile img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-profile p{
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: blue;
+}
+.user-profile small{
+    font-size: 12px;
+
+}
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.story{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-image: url(imrankhan.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.story img{
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px solid #626262;
+
+}
+.story p{
+position: absolute;
+bottom: 10px;
+width: 100%;
+text-align: center;
+
+}
+.story1{
+    background-image: url(./wasim-akram.jpg);
+}
+
+.story2{
+    background-image: url(./Waqar_younis.jpg);
+}
+
+
+ /* .story-gallery{ 
+    display: flex;
+    width: 5px;
+    height: 5px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.story{
+    background-image: url(./imrankhan.jpg);
+    /* flex-basis: 40%; */
+    /* width: 100%; */
+    /* height: 50px; 
+    padding: 92%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 80px;
+/* } 
